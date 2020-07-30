@@ -13,24 +13,76 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">KRITIKA AGGARWAL</a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
+      </li> -->
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
   </div>
 </nav>
+<br><br><br>
+<div class="container">
+  <div>
+    <h1>ABOUT</h1>
+  </div>
+<p>
+  I am a 2nd year BE/BTECH computer engineering student at Thapar institute of engineering and technology
+with good academic record. My greatest strength is positive attitude towards learning new lessons and gaining
+more experiences everyday. I like to explore new things and grasp them quickly. I think that learning is a never
+ending process and try to keep myself updated with the latest coding languages. Right now I am brushing up my
+developer skills and heading towards data analytics by exploring amazing python libraries.
+
+</p>
+<br<br><br>
+<!-- TABLE -->
+<div><h1>EDUCATION</h1></div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">SR NO</th>
+      <th scope="col">QUALIFICATION</th>
+      <th scope="col">INSTITUTE</th>
+      <th scope="col">MARKS OBTAINED</th>
+      <th scope="col">TIME PERIOD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>B.Tech, Computer
+        Engineering</td>
+      <td>Thapar Institute of
+        Engineering and
+        Technology, Patiala</td>
+      <td>CGPA – 9.67/10</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Class 12th (CBSE Board)</td>
+      <td>Government Model Sr Secondary School Sector-33,Chandigarh</td>
+      <td>CBSE Board, 88.6%</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Class 10th (CBSE BOARD)
+        </td>
+      <td>D.A.V Public School,Mohali</td>
+      <td>CBSE Board, CGPA 10/10</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </body>
