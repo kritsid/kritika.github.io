@@ -86,3 +86,4 @@ developer skills and heading towards data analytics by exploring amazing python 
 </table>
 </div>
 </body>
+</html>
