@@ -1,87 +1,404 @@
-<head>
-	<title>homepage</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>homepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 
+        reference of the template:: 
+        http://www.templatemo.com/preview/templatemo_443_stream
+        -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!-- [if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif] -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <div id="home" class="carousel slide carousel-fade" data-ride="carousel">
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-<!--   <a class="navbar-brand" href="#">KRITIKA AGGARWAL</a> -->
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+                <div class="item-1"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="col-md-offset-2 col-md-8 col-sm-12">
+                            <h2>RELATION BETWEEN ME AND MY CODE:</h2>
+                            <p><strong><span class="green"><BR>YOU MAKE A MISTAKE AND I WILL GIVE YOU A NEW EXPERIENCE<BR>-(by my code)</span></strong></p>
+                            <!-- <a href="#" class="button default">Details</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-2"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="col-md-offset-2 col-md-8 col-sm-12">
+                            <!-- <h2></h2>
+                            <p>Credit goes to <a rel="nofollow" href="http://unsplash.com"><span class="yellow">Unsplash</span></a> for images used in this template. Vivamus sed mauris ut libero tristique ultricies. Suspendisse sagittis eget augue vel condimentum. Sed malesuada tortor venenatis enim blandit interdum.</p>
+                            <a href="#" class="button default">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="item">
+                <div class="item-3"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="col-md-offset-2 col-md-8 col-sm-12">
+                            <h2>Mobile Ready</h2>
+                            <p>hey everyone!! welcome this is kritika aggarwal. im a undergraduation student of computer engineering at TIET.</p> 
+                             <a href="#" class="button default">Let's talk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+            <!-- SLIDER OPTIONS -->
+            <div class="slider-options">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-4 slider-nav">
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#home" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#home" role="button" data-slide="next">
+                                <span class="fa fa-angle-right"></span>
+                            </a>
+                        </div>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li> -->
-    </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
-  </div>
-</nav>
-<br><br><br>
-<div class="container">
-  <div>
-    <h1>ABOUT</h1>
-  </div>
-<p>
-  I am a 2nd year BE/BTECH computer engineering student at Thapar institute of engineering and technology
-with good academic record. My greatest strength is positive attitude towards learning new lessons and gaining
-more experiences everyday. I like to explore new things and grasp them quickly. I think that learning is a never
-ending process and try to keep myself updated with the latest coding languages. Right now I am brushing up my
-developer skills and heading towards data analytics by exploring amazing python libraries.
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#home" data-slide-to="0" class="active"></li>
+                                <li data-target="#home" data-slide-to="1"></li>
+                                <li data-target="#home" data-slide-to="2"></li>
+                            </ol>
+                        </div>
 
-</p>
-<br<br><br>
-<!-- TABLE -->
-<div><h1>EDUCATION</h1></div>
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">SR NO</th>
-      <th scope="col">QUALIFICATION</th>
-      <th scope="col">INSTITUTE</th>
-      <th scope="col">MARKS OBTAINED</th>
-      <th scope="col">TIME PERIOD</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>B.Tech, Computer
-        Engineering</td>
-      <td>Thapar Institute of
-        Engineering and
-        Technology, Patiala</td>
-      <td>CGPA – 9.67/10</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Class 12th (CBSE Board)</td>
-      <td>Government Model Sr Secondary School Sector-33,Chandigarh</td>
-      <td>CBSE Board, 88.6%</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Class 10th (CBSE BOARD)
-        </td>
-      <td>D.A.V Public School,Mohali</td>
-      <td>CBSE Board, CGPA 10/10</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</body>
+                        <div class="col-md-4 col-sm-4 text-right col-xs-4">
+                            <a href="#" id="scroll-to-content" class="go-down"><i class="fa fa-angle-down"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+
+
+        <nav id="navigation">
+            <div class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">KA</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home" class="current">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container -->
+            </div><!--navbar-default-->
+        </nav><!--navigation section end here-->
+
+
+        <section id="about" class="page-section first-section">
+            <div class="container">
+                <div class="row page-heading">
+                    <div class="col-md-8 col-sm-8">
+                        <h3 class="page-title">About Me</h3>
+                        <p class="page-subtitle">LEARN MORE ABOUT ME AND MY EXPERIENCE</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hidden-xs page-icon-holder">
+                        <p class="page-icon"><i class="fa fa-user"></i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="profile-image">
+                            <img src="img/pic1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        
+                        <div class="profile-content">
+                            <h4>Kritika Aggarwal</h4>
+                            <span>computer engineeirng</span>
+                            <p>hey everyone!! welcome this is kritika aggarwal. im a undergraduation student of computer engineering(5th semester) at TIET.My CGPA is 9.77. I like to explore new things and grasp them quickly. I think that learning is a never
+                                ending process and try to keep myself updated with the latest coding languages. Right now I am brushing up my
+                                developer skills and heading towards data analytics by exploring amazing python libraries.</p>
+                            <ul class="social-icons">
+                                <li><a href="https://www.facebook.com/kritika.aggarwal.9041/" class="fa fa-facebook"></a></li>
+                                <!-- <li><a href="#" class="fa fa-twitter"></a></li> -->
+                                <li><a href="www.linkedin.com/in/kritika-aggarwal" class="fa fa-linkedin"></a></li>
+                                <li><a href="https://github.com/kritsid" class="fa fa-github"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="my-skills">
+                            <h4>My Skills</h4>
+                            <h5>PROGRAMMING LANGUAGES</h5>
+                            <br>
+                            <h6>C/C++</h6><h6>PYTHON</h6><h6>PHP</h6><h6>R</h6><h6>SQL</h6>
+                            <br>
+                            <h5>CURRENT AREAS OF STUDY:</h5>
+                            <br>
+                            <h6>DATA SCIENCE</h6><h6>AI</h6><h6>ML</h6><h6>DESIGN AND ANALYSIS OF ALGORITHMS</h6>
+
+                            <ul class="progess-bars">
+                                <li>
+                                    <span>C++ 70%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>python 80%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>data science 50%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section id="gallery" class="page-section">
+            <div class="container">
+                <div class="row page-heading">
+                    <div class="col-md-8 col-sm-8">
+                        <h3 class="page-title">My Training/Courses</h3>
+                        <p class="page-subtitle">CHECK SOME OF MY RECENT COURSES</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hidden-xs text-right">
+                        <p class="page-icon"><i class="fa fa-camera"></i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                          <h5 class="card-title">CDAC</h5>
+                          <p class="card-text">did 4 weeks training at CDAC MOHALI for ARTIFICIAL INTELLIGENCE</p>
+                          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                        </div>
+                      </div>
+                      <br>
+                    <div class="card-group">
+                        <div class="card">
+                          <!-- <img src="..." class="card-img-top" alt="..."> -->
+                          <div class="card-body">
+                            <h5 class="card-title">NIELIT</h5>
+                            <p class="card-text">DID 1 week course at NIELIT on PYTHON AND MACHNE LEARNING</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <br>
+                      
+                        <div class="card">
+                          <!-- <img src="..." class="card-img-top" alt="..."> -->
+                          <div class="card-body">
+                            <h5 class="card-title">COURSERA</h5>
+                            <p class="card-text">I have completed multiple specializations and project based coursses related to data science on coursera</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="gallery" class="page-section">
+            <div class="container">
+                <div class="row page-heading">
+                    <div class="col-md-8 col-sm-8">
+                        <h3 class="page-title">My Projects</h3>
+                        <p class="page-subtitle">CHECK SOME OF MY LAST PROJECTS</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hidden-xs text-right">
+                        <p class="page-icon"><i class="fa fa-camera"></i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="gallery-holder">
+                        <div class="col-md-3 col-sm-6 col-xs-12 gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/1.png" alt="" style = "width:400px;height:200px;">
+                                <div class="hover">
+                                    <center><p>FAKE OR TRUE NEWS ANALYSIS.</p>
+                                    <p>CLICK TO OPEN KAGGLE NBOOK</p></center>
+
+                                    <a href="https://www.kaggle.com/kritikaaggarwal/fake-or-true" class="fa fa-plus">CLICK</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/2.jpg" alt="" style ="width:200px;height:200px;">
+                                <div class="hover">
+                                    <center><p>B AND M TYPE CANCEROUS TISSUES ANALYSIS.</p>
+                                        <p>CLICK TO OPEN KAGGLE NBOOK</p></center>
+                                    <a href="https://www.kaggle.com/kritikaaggarwal/complete-analysis-and-prediction-on-tumors" class="fa fa-plus">CLICK</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="page-section">
+            
+            <div class="container">
+                <div class="row page-heading">
+                    
+                    <div class="col-md-8 col-sm-8">
+                        <h3 class="page-title">Contact Me</h3>
+                        <p class="page-subtitle">FEEL FREE TO SEND A MAIL</p>
+                        
+                        <br>
+                        <p class="page-subtitle">KRITIKA AGGARWAL</p>
+
+                    <p class="page-subtitle">BE/BTECH COMPUTER ENGINEERING</p>
+                    <p class="page-subtitle">3RD YEAR</p>
+                    <p class="page-subtitle">THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY</p>
+                    <p class="page-subtitle">kritikaaggarwal1621@gmail.com</p>
+                    </div>
+                    <!-- <div class="col-md-4 col-sm-4 hidden-xs text-right">
+                        <p class="page-icon"><i class="fa fa-envelope"></i></p>
+                    </div> -->
+                </div>
+                
+                    <!-- <br><br><br> -->
+
+
+
+                    <!-- <div class="col-md-9 col-sm-12">
+                        <div class="row">
+                            <form action="mailto :kritikaaggarwal1621@gmail.com" method="post" class="contact-form">
+                                <fieldset class="col-md-4 col-sm-6 col-xs-12">
+                                </fieldset>
+                                <fieldset class="col-md-4 col-sm-6 col-xs-12">
+                                    <input type="email" id="email" placeholder="Email...">
+                                </fieldset>
+                                <fieldset class="col-md-4 col-sm-12 col-xs-12">
+                                    <input type="text" id="subject" placeholder="Subject...">
+                                </fieldset>
+                                <fieldset class="col-md-12 col-sm-12 col-xs-12">
+                                    <textarea name="message" id="message" cols="30" rows="6" placeholder="Message..."></textarea>
+                                </fieldset>
+                                <fieldset class="col-md-12 col-sm-12 col-xs-12">
+                                    <input type="submit" class="button default" value="Send Message">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div> -->
+                    <div class="col-md-3 col-sm-12">
+                        <div class="contact-info">
+                            <!-- <h4>Contact Information</h4> -->
+                    
+                            <ul class="social-icons">
+                                <li><a href="https://www.facebook.com/kritika.aggarwal.9041/" class="fa fa-facebook"></a></li>
+                                <!-- <li><a href="#" class="fab fa-kaggle"></a></li> -->
+                                <li><a href="www.linkedin.com/in/kritika-aggarwal" class="fa fa-linkedin"></a></li>
+                                <li><a href="https://github.com/kritsid" class="fa fa-github"></a></li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="text-center">
+                    <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+                    <p class="copyright-text"> &copy; kritika aggarwal</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/min/plugins.min.js"></script>
+        <script src="js/min/main.min.js"></script>
+
+    </body>
+</html>
