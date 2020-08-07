@@ -604,6 +604,9 @@ html,body {
 #gallery {
     background: #2d3640;
 }
+#gallery2 {
+    background:  #3c4755;
+}
 
 .gallery-holder {
     margin-bottom: 90px;
@@ -661,7 +664,7 @@ html,body {
 }
 
 #contact {
-    background: #3c4755;
+    background: #2d3640;
     padding-bottom: 70px;
 }
 
